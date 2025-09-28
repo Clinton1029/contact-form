@@ -55,7 +55,7 @@ export default function ContactPage() {
                 type="text"
                 name="name"
                 placeholder="John Doe"
-                className="w-full pl-10 rounded-lg border border-gray-300 p-3 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition"
+                className="w-full pl-10 rounded-lg border border-gray-300 p-3 text-black focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition"
                 required
               />
             </div>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                 type="email"
                 name="email"
                 placeholder="example@email.com"
-                className="w-full pl-10 rounded-lg border border-gray-300 p-3 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition"
+                className="w-full pl-10 rounded-lg border border-gray-300 p-3 text-black focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition"
                 required
               />
             </div>
@@ -89,7 +89,7 @@ export default function ContactPage() {
                 name="message"
                 rows={4}
                 placeholder="Write your message here..."
-                className="w-full pl-10 rounded-lg border border-gray-300 p-3 focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition"
+                className="w-full pl-10 rounded-lg border border-gray-300 p-3 text-black focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition"
                 required
               />
             </div>
